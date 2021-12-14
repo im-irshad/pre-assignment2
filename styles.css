@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.bgDiv {
+  background-color: darkgray;
+  width: 70%;
+  margin: auto;
+  height: 70vh;
+}
+
+.inputConatainer {
+  background-color: black;
+  color: white;
+  margin: 10% 10% 0 10%;
+  width: 80%;
+  height: 25%;
+  text-align: center;
+}
+input {
+  width: 60%;
+  height: 25%;
+}
+#addButton {
+  height: 25%;
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+
+  width: 80%;
+  margin-left: 10%;
+}
+li {
+  font-size: 2rem;
+}
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+li:nth-child(even) {
+  background-color: white;
+}
+#rmvButton {
+  margin: 5% 40%;
+  height: 15%;
+  width: 20%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.tickButton {
+  font-size: 1rem;
+  font-weight: bold;
+  float: left;
+  margin-left: 2%;
+}
+.crossButton {
+  font-size: 1rem;
+  font-weight: bold;
+  float: right;
+  margin-right: 2%;
+}
+.clickedLi {
+  background-color: green;
+  text-decoration: line-through;
+}
